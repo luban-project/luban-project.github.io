@@ -1,7 +1,7 @@
 # luban-project
 # language
-[English](https://luban-project.github.io "English Homepage"). 
-[中文](https://luban-project.github.io/index-CN.html "中文首页"). 
+[[English](https://luban-project.github.io "English Homepage")]
+[[中文](https://luban-project.github.io/index-CN.html "中文首页")]
 
 # luban
 luban is a generic project generator
