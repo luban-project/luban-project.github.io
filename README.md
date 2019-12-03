@@ -16,14 +16,6 @@ cargo install cargo-luban           # 2. install luban:
 cargo luban --version               # 3. check version: 
 ```
 
-
-### Known Problems
-|OS|Problem|Solve|
-|--|--|--|
-|centos|Could not find directory of OpenSSL|yum install openssl-devel|
-|ubuntu|linker `cc` not found|sudo apt-get install build-essential|
-|ubuntu|Could not find directory of OpenSSL|sudo apt install libssl-dev & sudo apt instll pkg-config|  
-
 ## windows
 1. install rust: following [rust-lang](https://www.rust-lang.org/tools/install)
 2. install bullet: cargo install cargo-bullet
@@ -80,13 +72,6 @@ chmod 755 run.sh
 
 
 # Supported Templates
-## Java Spring Gradle
-```text
-cargo bullet install --name=bullet-spring-java
-cargo bullet create  --name=bullet-spring-java
-cargo bullet build   --name=bullet-spring-java --output=out 
-```
-
 ## Java Spring Maven
 ```text
 cargo bullet install --name=bullet-spring-java-maven
@@ -94,9 +79,10 @@ cargo bullet create  --name=bullet-spring-java-maven
 cargo bullet build   --name=bullet-spring-java-maven --output=out
 ```
 
-## MySQL accumulator
-```text
-cargo bullet install --name=bullet-sql-accumulator
-cargo bullet create  --name=bullet-sql-accumulator
-cargo bullet build   --name=bullet-sql-accumulator --output=out 
-```
+# FAQ
+### Known Problems  
+|OS|Problem|Solve|
+|--|--|--|
+|centos|Could not find directory of OpenSSL|yum install openssl-devel|
+|ubuntu|linker `cc` not found|sudo apt-get install build-essential|
+|ubuntu|Could not find directory of OpenSSL|sudo apt install libssl-dev & sudo apt instll pkg-config|  
