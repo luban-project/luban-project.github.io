@@ -3,7 +3,7 @@ permalink: /spring-java-maven-CN.html
 ---
 
 
-# Spring Java Maven模板项目文档
+# Spring-Java-Maven模板项目文档
 
 ## 基本生成和运行
 ```  
