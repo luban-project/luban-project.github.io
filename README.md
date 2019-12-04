@@ -33,13 +33,17 @@ luban install --name=bullet-spring-java-maven
 luban fast-create --name=bullet-spring-java-maven --project=com.foo.example
 cd example
 
-# make shell executable
+# mac/linux user, make shell executable
 chmod 755 gen/gen.sh
 chmod 755 run.sh
 
-# generate code and run
+# for mac/linux user, generate code and run
 ./gen/gen.sh 
 ./run.sh
+
+# for windows user, generate code and run
+gen\gen.bat
+run.bat
 ```
 
 # bullet-spring-java-maven模板说明

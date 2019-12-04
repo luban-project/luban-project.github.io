@@ -41,13 +41,17 @@ luban install --name=bullet-spring-java-maven
 luban fast-create --name=bullet-spring-java-maven --project=com.foo.example
 cd example
 
-# 给脚本添加可执行权限
+# mac/linux用户需要给脚本添加可执行权限
 chmod 755 gen/gen.sh
 chmod 755 run.sh
 
-# 生成代码并启动
+# mac/linux用户生成代码并启动
 ./gen/gen.sh 
 ./run.sh
+
+# windows用户生成代码并启动
+gen\gen.bat
+run.bat
 ```
 
 # bullet-spring-java-maven模板说明
