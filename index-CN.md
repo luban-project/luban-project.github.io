@@ -74,14 +74,22 @@ root --|
 数据库相关的sql脚本在app/src/main/resouces/db/migration目录下  
 代码生成命令如下：
 ```  
+# mac/linux用户
 chmod 755 gen/gen.sh
 ./gen/gen.sh
+
+# windows用户
+gen\gen.bat
 ```
 
 ## 项目运行
 ```
+# mac/linux用户
 chmod 755 run.sh
 ./run.sh
+
+# windows用户
+run.bat
 ```
 
 
