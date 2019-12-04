@@ -33,7 +33,7 @@ luban install --name=bullet-spring-java-maven
 luban fast-create --name=bullet-spring-java-maven --project=com.foo.example
 cd example
 
-# mac/linux user, make shell executable
+# for mac/linux user, make shell executable
 chmod 755 gen/gen.sh
 chmod 755 run.sh
 
