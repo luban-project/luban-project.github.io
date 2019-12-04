@@ -15,7 +15,7 @@ luban --version
 ## windows环境安装
 windows用户可以直接下载已经打包好的可执行程序，  
 如果要方便后续使用，最好设置一下环境变量，保证luban.exe的路径在PATH环境变量中。
-```
+```  
 https://github.com/luban-project/luban-win/raw/master/latest/luban.exe
 ```
 
