@@ -121,7 +121,9 @@ luban --version                        # 检查版本
 
 ## 模板安装目录不存在，写入失败导致模板安装失败（常发生在windows用户是管理员的情况）
 表现形式： 安装模板执行luban install的时候报~/.bullet_templates无法创建  
-处理方式： 使用cmd命令行mkdir ~/.bullet_templates手工创建一下目录  
+处理方式： 手工创建一下目录
+mkdir ~/.bullet_templates             # mac/linux  
+mkdir %USERPROFILE%\.bullet_templates # windows
 
 ## mac系统/linux系统openssl没有安装的问题
 表现形式： 报一堆openssl的错误  
