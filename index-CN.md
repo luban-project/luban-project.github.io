@@ -62,13 +62,13 @@ root --|
 ## 数据库代码生成
 数据库相关的sql脚本在app/src/main/resouces/db/migration目录下  
 代码生成命令如下：
-```shell script
+```
 chmod 755 gen/gen.sh
 ./gen/gen.sh
 ```
 
 ## 项目运行
-```shell script
+```
 chmod 755 run.sh
 ./run.sh
 ```
