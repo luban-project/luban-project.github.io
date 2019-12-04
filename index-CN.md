@@ -84,21 +84,21 @@ cargo bullet build   --name=bullet-spring-java-maven --output=out
 
 # 常见问题
 ## 模板安装目录已经存在，写入失败导致模板安装失败（常发生在安装过历史版本，新老版本不兼容时）
-表现形式： 安装模板执行luban install的时候报~/.bullet_templates写入失败
+表现形式： 安装模板执行luban install的时候报~/.bullet_templates写入失败  
 处理方式： 手工删除重建~/.bullet_templates目录
 
 ## 模板安装目录不存在，写入失败导致模板安装失败（常发生在windows用户是管理员的情况）
-表现形式： 安装模板执行luban install的时候报~/.bullet_templates无法创建
-处理方式： 使用cmd命令行mkdir ~/.bullet_templates手工创建一下目录
+表现形式： 安装模板执行luban install的时候报~/.bullet_templates无法创建  
+处理方式： 使用cmd命令行mkdir ~/.bullet_templates手工创建一下目录  
 
 ## mac系统/linux系统openssl没有安装的问题
-表现形式： 报一堆openssl的错误
+表现形式： 报一堆openssl的错误  
 处理方式：  
-mac: brew install openssl
-centos: yum install openssl-devel
-ubuntu: sudo apt install libssl-dev & sudo apt instll pkg-config
+mac: brew install openssl  
+centos: yum install openssl-devel  
+ubuntu: sudo apt install libssl-dev & sudo apt instll pkg-config  
 
 ## linux系统没有安装基本构建工具的问题
-表现形式： linker `cc` not found
-处理方式： 
+表现形式： linker `cc` not found  
+处理方式：  
 ubuntu: sudo apt-get install build-essential
