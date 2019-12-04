@@ -91,8 +91,6 @@ run.bat
 ## Java Spring Maven
 ```text
 luban install --name=bullet-spring-java-maven
-luban create  --name=bullet-spring-java-maven
-luban build   --name=bullet-spring-java-maven --output=out
 ```
 
 # FAQ
