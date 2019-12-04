@@ -64,6 +64,10 @@ root --|
     gen --|  #自动代码生成的插件和配置
 ```
 
+## 项目详细文档  
+[[Spring-Maven-文档](https://luban-project.github.io/spring-java-maven-CN.html "Maven项目文档")]  
+
+
 ## 数据库代码生成
 数据库相关的sql脚本在app/src/main/resouces/db/migration目录下  
 代码生成命令如下：
