@@ -18,12 +18,11 @@ curl https://sh.rustup.rs -sSf | sh # 1. install rust:
 cargo install cargo-luban           # 2. install luban: 
 cargo luban --version               # 3. check version: 
 ```
-
-## windows
-1. install rust: following [rust-lang](https://www.rust-lang.org/tools/install)
-2. install bullet: cargo install cargo-bullet
-3. check version: cargo bullet --version
-* please install visual studio to get the msvc compiler
+## windows环境安装
+you can download the pre-built binary for windows
+```  
+https://github.com/luban-project/luban-win/raw/master/latest/luban.exe
+```
 
 # usage example
 ```  
