@@ -83,13 +83,17 @@ cargo bullet build   --name=bullet-spring-java-maven --output=out
 ```
 
 # 常见问题
-## 老版本卸载
+## 版本更新和兼容问题
+处理方式：卸载旧版本，重新安装新版本
 mac
 ```  
 brew uninstall luban                 # 卸载鲁班
 brew untap thegenius/luban/luban     # 最早的用户可能安装的老版本
 brew untap luban-project/luban/luban # 现在的用户安装的版本
 rm -rf ~/.bullet_templates           # 删除模板安装目录
+
+brew install luban-project/luban/luban # 安装新版鲁班
+luban --version                        # 检查版本
 ```
 
 ## 模板安装目录已经存在，写入失败导致模板安装失败（常发生在安装过历史版本，新老版本不兼容时）
