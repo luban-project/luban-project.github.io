@@ -95,11 +95,11 @@ chmod 755 gen/gen.sh
 # for windows user
 gen\gen.bat
 ```
-自动生成的数据库代码放在app/src/main/java/{group}/{project}/dal/gen下面 
-每次运行数据库层代码生成，dal/gen下面的代码都会被覆盖 
-dal/gen下面生成的代码包含了基本的增删改查
-复杂的sql需要自己封装，封装的dal层代码直接放到dal/下，不要放到dal/gen下面
-建议自定义的dal类命名为xxxRepository，其中xxx是操作的表名
+自动生成的数据库代码放在app/src/main/java/{group}/{project}/dal/gen下面   
+每次运行数据库层代码生成，dal/gen下面的代码都会被覆盖   
+dal/gen下面生成的代码包含了基本的增删改查  
+复杂的sql需要自己封装，封装的dal层代码直接放到dal/下，不要放到dal/gen下面  
+建议自定义的dal类命名为xxxRepository，其中xxx是操作的表名  
 
 ### 运行项目
 项目运行可以通过简单的脚本命令
