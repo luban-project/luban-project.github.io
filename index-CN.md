@@ -48,10 +48,12 @@ chmod 755 gen/gen.sh
 chmod 755 run.sh
 
 # mac/linux用户生成代码并启动
+# 项目需要比较新的maven版本，maven至少需要3.3.9以上
 ./gen/gen.sh 
 ./run.sh
 
 # windows用户生成代码并启动
+# 项目需要比较新的maven版本，maven至少需要3.3.9以上
 gen\gen.bat
 run.bat
 ```

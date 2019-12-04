@@ -40,10 +40,12 @@ chmod 755 gen/gen.sh
 chmod 755 run.sh
 
 # for mac/linux user, generate code and run
+# maven version need 3.3.9+
 ./gen/gen.sh 
 ./run.sh
 
 # for windows user, generate code and run
+# maven version need 3.3.9+
 gen\gen.bat
 run.bat
 ```
