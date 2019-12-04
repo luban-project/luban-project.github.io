@@ -11,17 +11,17 @@ luban is a generic project generator
 brew install luban-project/luban/luban
 luban --version
 ```
+## windows
+you can download the pre-built binary for windows
+```  
+https://github.com/luban-project/luban-win/raw/master/latest/luban.exe
+```
 
 ## linux/unix
 ```  
 curl https://sh.rustup.rs -sSf | sh # 1. install rust: 
 cargo install cargo-luban           # 2. install luban: 
 cargo luban --version               # 3. check version: 
-```
-## windows环境安装
-you can download the pre-built binary for windows
-```  
-https://github.com/luban-project/luban-win/raw/master/latest/luban.exe
 ```
 
 # usage example
