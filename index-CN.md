@@ -26,7 +26,7 @@ cargo install cargo-luban           # 2. install luban:
 cargo luban --version               # 3. check version: 
 ```
 
-## 任意支持rust语言的环境
+## 如果不是以上系统，鲁班也能运行在任意支持rust语言的环境
 1. 安装语言: following [rust-lang](https://www.rust-lang.org/tools/install)
 2. 安装鲁班: cargo install cargo-luban
 3. 检查版本: cargo luban --version
