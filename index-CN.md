@@ -7,7 +7,7 @@ permalink: /index-CN.html
 
 # 安装
 ## mac环境（brew一键安装💖）
-```shell script
+```
 brew install luban-project/luban/luban
 luban --version
 ```
@@ -19,11 +19,11 @@ cargo install cargo-luban           # 2. install luban:
 cargo luban --version               # 3. check version: 
 ```
 
-## windows环境
-1. install rust: following [rust-lang](https://www.rust-lang.org/tools/install)
-2. install bullet: cargo install cargo-bullet
-3. check version: cargo bullet --version
-* please install visual studio to get the msvc compiler
+## 任意支持rust语言的环境
+1. 安装语言: following [rust-lang](https://www.rust-lang.org/tools/install)
+2. 安装鲁班: cargo install cargo-luban
+3. 检查版本: cargo luban --version
+* 在windows上，请先安装visual studio，因为需要msvc的编译器
 
 # 使用示例
 ```shell script
