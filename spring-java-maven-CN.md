@@ -118,7 +118,7 @@ java -jar app/target/app-1.0.jar # 通过jar形式直接启动项目
 ```
 
 ### 项目运行到实际数据库上
-默认情况下，项目直接跑在H2数据库模式上，可以通过修改配置变更数据源
+默认情况下，项目直接跑在H2数据库模式上，可以通过修改配置变更数据源  
 修改app/src/main/resources/application.yaml
 ```
 spring:
@@ -126,7 +126,7 @@ spring:
     active: h2 # 修改到mysql
 ```  
 
-修改app/src/main/resources/application-mysql.yaml  
+修改app/src/main/resources/application-mysql.yaml    
 ```  
 spring:
   datasource:
