@@ -62,7 +62,7 @@ root --|
 ## 数据库代码生成
 数据库相关的sql脚本在app/src/main/resouces/db/migration目录下  
 代码生成命令如下：
-```
+```  
 chmod 755 gen/gen.sh
 ./gen/gen.sh
 ```
@@ -83,6 +83,15 @@ cargo bullet build   --name=bullet-spring-java-maven --output=out
 ```
 
 # 常见问题
+## 老版本卸载
+mac
+```  
+brew uninstall luban                 # 卸载鲁班
+brew untap thegenius/luban/luban     # 最早的用户可能安装的老版本
+brew untap luban-project/luban/luban # 现在的用户安装的版本
+rm -rf ~/.bullet_templates           # 删除模板安装目录
+```
+
 ## 模板安装目录已经存在，写入失败导致模板安装失败（常发生在安装过历史版本，新老版本不兼容时）
 表现形式： 安装模板执行luban install的时候报~/.bullet_templates写入失败  
 处理方式： 手工删除重建~/.bullet_templates目录
