@@ -77,9 +77,9 @@ chmod 755 run.sh
 # Supported Templates
 ## Java Spring Maven
 ```text
-cargo bullet install --name=bullet-spring-java-maven
-cargo bullet create  --name=bullet-spring-java-maven
-cargo bullet build   --name=bullet-spring-java-maven --output=out
+luban install --name=bullet-spring-java-maven
+luban create  --name=bullet-spring-java-maven
+luban build   --name=bullet-spring-java-maven --output=out
 ```
 
 # FAQ
