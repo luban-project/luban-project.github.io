@@ -13,7 +13,7 @@ luban --version
 ```
 
 ## linux/unix环境
-```shell script
+```
 curl https://sh.rustup.rs -sSf | sh # 1. install rust: 
 cargo install cargo-luban           # 2. install luban: 
 cargo luban --version               # 3. check version: 
@@ -26,7 +26,7 @@ cargo luban --version               # 3. check version:
 * 在windows上，请先安装visual studio，因为需要msvc的编译器
 
 # 使用示例
-```shell script
+```
 # 第一次运行的时候，需要先安装一下项目模板
 luban install --name=bullet-spring-java-maven 
 
