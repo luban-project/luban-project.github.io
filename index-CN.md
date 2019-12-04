@@ -35,6 +35,8 @@ cargo luban --version               # 3. check version:
 # 使用示例
 ```
 # 第一次运行的时候，需要先安装一下项目模板
+# windows用户需要先创建一下模板目录，防止权限问题
+# mkdir %USERPROFILE%\.bullet_templates
 luban install --name=bullet-spring-java-maven 
 
 # 生成项目

@@ -27,6 +27,8 @@ cargo luban --version               # 3. check version:
 # usage example
 ```  
 # for the first time, install project template
+# for windows user, you need create template dir mannually
+# mkdir %USERPROFILE%\.bullet_templates
 luban install --name=bullet-spring-java-maven 
 
 # generate project
