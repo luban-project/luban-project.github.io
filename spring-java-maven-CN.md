@@ -43,6 +43,8 @@ root --|
     gen --|  #自动代码生成的插件和配置
 ```
 
+![micro-structure](https://luban-project.github.io/micro-structure.png)
+
 ## 如何根据表的变化生成新的数据层代码
 ### 建立数据库建表或者插数据语句
 数据库sql建表语句需要创建在app/src/main/resouces/db/migration，
