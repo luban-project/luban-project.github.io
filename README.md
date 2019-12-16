@@ -32,7 +32,7 @@ cargo luban --version               # 3. check version:
 luban install --name=bullet-spring-java-maven 
 
 # generate project
-luban fast-create --name=bullet-spring-java-maven --project=com.foo.example
+luban fast-create --name=bullet-spring-java-maven --project=com.foo.example --app=example
 cd example
 
 # for mac/linux user, make shell executable

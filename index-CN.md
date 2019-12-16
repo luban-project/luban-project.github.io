@@ -40,7 +40,7 @@ cargo luban --version               # 3. check version:
 luban install --name=bullet-spring-java-maven 
 
 # 生成项目
-luban fast-create --name=bullet-spring-java-maven --project=com.foo.example
+luban fast-create --name=bullet-spring-java-maven --project=com.foo.example --app=example
 cd example
 
 # mac/linux用户需要给脚本添加可执行权限
